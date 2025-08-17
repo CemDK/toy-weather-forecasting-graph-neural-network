@@ -1,0 +1,136 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+rocm-env/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# PyTorch & ML
+# *.pth
+*.pt
+*.ckpt
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.npz
+checkpoints/
+wandb/
+lightning_logs/
+tensorboard_logs/
+mlruns/
+
+# Data Files
+data/
+datasets/
+*.csv
+*.json
+*.parquet
+*.feather
+*.xlsx
+*.xls
+*.sqlite
+*.db
+
+# API Keys
+.env
+.env.local
+.env.*.local
+api_keys.txt
+config/secrets.yaml
+*.key
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.tmp
+
+# Logs
+*.log
+logs/
+*.out
+
+# Cache
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ROCm/CUDA specific
+*.so.*
+*.a
+*.dll
+*.dylib
+
+# Temporary files
+temp/
+tmp/
+*.temp
+*.bak
+
+# Large model files (use Git LFS if needed)
+*.bin
+*.safetensors
+models/*.bin
+models/*.safetensors
+
+# Direnv
+.direnv/
+
+# Project specific
+experiments/
+outputs/
+results/
+plots/
+figures/
+
+# Backup files
+*~
+*.orig
+*.rej
+
+# PDF files
+*.pdf
